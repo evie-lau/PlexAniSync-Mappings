@@ -33,7 +33,7 @@ jobs:
           pip install -r requirements.txt
           python validate.py
   sort-mappings:
-    if: github.event_name == 'push'
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -48,9 +48,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           python sort.py
+      # TODO: commit directly to PR?
       - name: Commit changes from sorting
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Sort entries
-          branch: ci/sort-${{ github.sha }}
-          create_branch: true
+          branch: ${{ github.ref }}
+          create_branch: false
