@@ -1,4 +1,10 @@
 entries:
+  - title: "86: Eighty Six"
+    synonyms:
+      - "86: Eighty-Six"
+      - "86 - Eighty-Six"
+      - "86 EIGHTY-SIX"
+      - "86"
   - title: "22/7"
     synonyms:
       - "22/7 (nanabun no nijyuuni)"
@@ -15,28 +21,12 @@ entries:
       - season: 1
         anilist-id: 1689
         start: -1
-  - title: "86: Eighty Six"
-    synonyms:
-      - "86: Eighty-Six"
-      - "86 - Eighty-Six"
-      - "86 EIGHTY-SIX"
-      - "86"
     seasons:
       - season: 1
         anilist-id: 116589
       - season: 1
         anilist-id: 131586
         start: 12
-  - title: "A Certain Magical Index"
-    synonyms:
-      - "Toaru Majutsu no Index"
-    seasons:
-      - season: 1
-        anilist-id: 4654
-      - season: 2
-        anilist-id: 8937
-      - season: 3
-        anilist-id: 100185
   - title: "A Certain Scientific Railgun"
     synonyms:
       - "Toaru Kagaku no Railgun"
@@ -83,6 +73,16 @@ entries:
         anilist-id: 21360
       - season: 2
         anilist-id: 101313
+  - title: "A Certain Magical Index"
+    synonyms:
+      - "Toaru Majutsu no Index"
+    seasons:
+      - season: 1
+        anilist-id: 4654
+      - season: 2
+        anilist-id: 8937
+      - season: 3
+        anilist-id: 100185
   - title: "After War Gundam X"
     synonyms:
       - "Kidou Senshi Seiki Gundam X"
