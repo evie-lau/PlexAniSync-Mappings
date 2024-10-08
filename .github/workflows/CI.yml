@@ -33,7 +33,7 @@ jobs:
           pip install -r requirements.txt
           python validate.py
   sort-mappings:
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -53,5 +53,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Sort entries
-          branch: ${{ github.ref.name }}
+          branch: master
           create_branch: false
