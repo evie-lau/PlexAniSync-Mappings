@@ -5,6 +5,12 @@ entries:
       - "86 - Eighty-Six"
       - "86 EIGHTY-SIX"
       - "86"
+    seasons:
+      - season: 1
+        anilist-id: 116589
+      - season: 1
+        anilist-id: 131586
+        start: 12
   - title: "22/7"
     synonyms:
       - "22/7 (nanabun no nijyuuni)"
@@ -21,12 +27,6 @@ entries:
       - season: 1
         anilist-id: 1689
         start: -1
-    seasons:
-      - season: 1
-        anilist-id: 116589
-      - season: 1
-        anilist-id: 131586
-        start: 12
   - title: "A Certain Scientific Railgun"
     synonyms:
       - "Toaru Kagaku no Railgun"
