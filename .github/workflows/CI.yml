@@ -38,10 +38,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr checkout ${{ github.event.pull_request.number }}
+      - uses: actions/checkout@v4
       - name: Set up Python ${{ env.PYTHON_VERSION }}
         uses: actions/setup-python@v5
         with:
@@ -56,5 +53,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Sort entries
-          branch: ${{ github.ref }}
+          branch: ${{ github.ref.name }}
           create_branch: false
