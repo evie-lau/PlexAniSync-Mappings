@@ -119,6 +119,10 @@ entries:
         anilist-id: 21341
       - season: 2
         anilist-id: 21799
+  - title: "Akai Shouzou: Char, Soshite Frontal e"
+    seasons:
+      - season: 1
+        anilist-id: 14007
   - title: "Akashic Records of Bastard Magical Instructor"
     synonyms:
       - "Akashic Records of Bastard Magical Instructor"
@@ -139,10 +143,6 @@ entries:
       - season: 1
         anilist-id: 20853
         start: 13
-  - title: "Akai Shouzou: Char, Soshite Frontal e"
-    seasons:
-      - season: 1
-        anilist-id: 14007
   - title: "ALL THAT GUNDAM"
     seasons:
       - season: 1
